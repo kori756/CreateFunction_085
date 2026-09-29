@@ -6,3 +6,10 @@ def ConvertsTemperature(value, unit):
     else:
         print("tidak ada unit")
 
+InputValue = int(input("Masukan Suhu: "))
+InputUnit = input("Masukan unit (c/f): ")
+
+konversi = ConvertsTemperature(InputValue, InputUnit)
+print(konversi)
+
+    
